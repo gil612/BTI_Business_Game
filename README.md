@@ -1,5 +1,6 @@
 # BTI_Business_Game
 In BTI we simulate a business game, to train our management skills. In Jupyter Notebook we developed algorithm to choose the most profitable orders.
+The source can be found here: https://bti-online.com/business-games/?lang=en
 
 The instruction of the game:
 The game aims to creating good balance sheet, income statement and cash flow statement, according to a strategy built within the group.
