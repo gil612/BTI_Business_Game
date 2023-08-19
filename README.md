@@ -2,10 +2,13 @@
 In BTI we simulate a business game, to train our management skills. In Jupyter Notebook we developed algorithm to choose the most profitable orders.
 
 The instruction of the game:
-the aim of the game to creating good balance sheet, income statement and cash flow statement, according to a strategy built within the group.
+The game aims to creating good balance sheet, income statement and cash flow statement, according to a strategy built within the group.
 
-Game Rules:
+Game rules:
 In first year the game is played with same given orders for all groups.
-Every group decides how many orders to handle each year (second and third years). The orders are given by turns before each year. Here we use an interactove algoruthm which tell us what is the order to choose, according to a dynamic list.
+After the completion of the first year round, every group decides how many orders to handle each year. Then the orders are given by turns. After second year round The orders are given by turns before each year. Here we use an interactive algorithm which tell us what is the order to choose, according to a dynamic list.
 
-At the end we can calcul
+
+
+
+Since our strategy was mass production, then we decided to choose order with the highest unit price, so the difference from the net income and prodution cost would be large.
