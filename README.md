@@ -18,16 +18,26 @@ Here's a dictionary of important business terms:
 
 
 Umsatzerlöse : Revenue
+
 Jahresüberschuss /-fehlbetrag : Net income
+
 Aktiva : Liabilities and owner's equity
+
 Passiva : Assets
+
 Zins : Interest rate
 
 Umsatzrentabilität : Operating Margin
+
 Kapitaluschlagshäufigkeit: Asset turnover
+
 Eigenkapitalretabilität : Return on equity
+
 Gesamtkapitalrentabilität : Return on assets
+
 Verschuludngsgrad : debt-to-equity ratio (D/E)
+
 Cashflow aus der Gesachäftstätigkeit : Operativ cash flow
+
 Cashflow aus der Investitionstätigkeit : Investing cash flow
 Cashflow aus der Finanztätigkeit : Financing cash flow
