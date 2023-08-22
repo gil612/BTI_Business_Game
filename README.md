@@ -1,43 +1,48 @@
 # BTI_Business_Game
-In BTI we simulate a business game, to train our management skills. In Jupyter Notebook we developed algorithm to choose the most profitable orders.
+In BTI we simulate a business game, to train our management skills. In Jupyter Notebook we developed an algorithm to list the most profitable orders.
 The source can be found here: https://bti-online.com/business-games/?lang=en
 
-The instruction of the game:
 The game aims to creating good balance sheet, income statement and cash flow statement, according to a strategy built within the group.
 
-Game rules:
-In first year the game is played with same given orders for all groups.
-After the completion of the first year round, every group decides how many orders to handle each year. Then the orders are given by turns. After second year round The orders are given by turns before each year. Here we use an interactive algorithm which tell us what is the order to choose, according to a dynamic list.
+### Order
+Order is a card specifying:
+
+- The ID the order
+- Type of product [Basic, Comfort, Hyper]
+- Number of products
+- Revenue
+- The time (in quarters) needed to be paid [1, 2]
+- Shipping quarter [1, 2, 3, 4]
+- Market [Europa, Nordamerika, Asien]
+
+The production cost is calculated with the formula `Revenue - #products * value of product`.
+
+
+In first year the game is played with same given orders for all groups. After the first year round is completed, follow these instructions:
+
+1. Every group decides how many orders to handle each year.
+1. The orders are given by turns for second year.
+1. Year two round is being played according to a task list.
+1. Balance sheet, income statement, cashflow statement are filled out.
+
+After the second year round is completed repeat the same process for the third year.
 
 
 
+Since the strategy of our group was mass production, we decided to focus on the basic products with highest value.
 
-Since our strategy was mass production, then we decided to choose order with the highest unit price, so the difference from the net income and prodution cost would be large.
+Here's a dictionary of important accounting terms:
 
-Here's a dictionary of important business terms:
-
-
-Umsatzerlöse : Revenue
-
-Jahresüberschuss /-fehlbetrag : Net income
-
-Aktiva : Liabilities and owner's equity
-
-Passiva : Assets
-
-Zins : Interest rate
-
-Umsatzrentabilität : Operating Margin
-
-Kapitaluschlagshäufigkeit: Asset turnover
-
-Eigenkapitalretabilität : Return on equity
-
-Gesamtkapitalrentabilität : Return on assets
-
-Verschuludngsgrad : debt-to-equity ratio (D/E)
-
-Cashflow aus der Gesachäftstätigkeit : Operativ cash flow
-
-Cashflow aus der Investitionstätigkeit : Investing cash flow
+Umsatzerlöse : Revenue<br>
+Jahresüberschuss /-fehlbetrag : Net income<br>
+Aktiva : Liabilities and owner's equity<br>
+Passiva : Assets<br>
+Zins : Interest rate<br>
+Umsatzrentabilität : Operating Margin<br>
+Kapitaluschlagshäufigkeit: Asset turnover<br>
+Eigenkapitalretabilität : Return on equity<br>
+Gesamtkapitalrentabilität : Return on assets<br>
+Verschuludngsgrad : debt-to-equity ratio (D/E)<br>
+Cashflow aus der Gesachäftstätigkeit : Operativ cash flow<br>
+Cashflow aus der Investitionstätigkeit : Investing cash flow<br>
 Cashflow aus der Finanztätigkeit : Financing cash flow
