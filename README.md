@@ -9,13 +9,15 @@ Order is a card specifying:
 
 - The ID the order
 - Type of product [Basic, Comfort, Hyper]
-- Number of products
-- Revenue
+- Number of pieces
+- Revenue (in M)
 - The time (in quarters) needed to be paid [1, 2]
 - Shipping quarter [1, 2, 3, 4]
 - Market [Europa, Nordamerika, Asien]
 
-The production cost is calculated with the formula `Revenue - #products * value of product`.
+The production cost is calculated with the formula `#pieces * value of piece` (usually 4M per piece).
+
+The difference between the revenue and production cost of each order must be large. 
 
 
 In first year the game is played with same given orders for all groups. After the first year round is completed, follow these instructions:
